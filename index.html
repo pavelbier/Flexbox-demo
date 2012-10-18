@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Flexbox demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;   
+                position: relative;
+                margin:0;
+            }
+
+            body {
+                display: -webkit-box; 
+                display: -moz-box; 
+                display: box;
+                -webkit-box-orient:vertical;
+                -moz-box-orient:vertical;
+                -ms-box-orient:vertical;
+                box-orient:vertical;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -ms-box-sizing: border-box;
+                box-sizing: border-box;
+                /* not important */
+                padding:10px;
+                background:#555;
+                color:#ccc;
+                font-family: Verdana,Arial,sans-serif;
+            }
+
+            #page_content {
+                -webkit-box-flex:1.0;
+                -moz-box-flex:1.0;
+                -ms-box-flex:1.0;
+                box-flex:1.0;
+                overflow: auto;
+                /* not important */
+                padding:10px;
+                background:#888;
+                color:#000;
+                margin:10px 0;
+            }
+
+            #page_header {
+                /* not important */
+                padding:10px;
+                background: #222;
+                text-align: center;
+            }
+
+
+            #page_footer {
+                /* not important */
+                padding:10px;
+                background: #111;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <header id="page_header">
+            <h1>Page header</h1>
+        </header>
+
+        <section id="page_content">
+            <h1>Content header</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis lectus nec mi gravida placerat. Nullam justo urna, convallis fermentum dictum ac, pretium vitae est. Mauris sit amet eleifend nulla. Suspendisse tincidunt tempus risus a scelerisque. Nullam congue dolor ac dui condimentum tempor. Suspendisse fermentum dolor ac augue porttitor scelerisque. Phasellus porttitor urna ac diam lobortis ultricies faucibus sapien malesuada. Praesent ut urna nec risus congue porttitor. Pellentesque pulvinar augue sed diam varius ornare. Phasellus bibendum dignissim felis, eget hendrerit odio varius non.</p>
+
+            <p>Integer ipsum felis, porttitor eget tempor non, semper vel urna. Donec lobortis venenatis ligula, ut consequat erat hendrerit ut. Nulla facilisi. Sed ullamcorper porta lectus in venenatis. Aenean aliquet dapibus consequat. Vestibulum varius sollicitudin libero, eget varius orci porta a. Aliquam erat volutpat. Nunc varius gravida accumsan. Maecenas vestibulum venenatis ipsum ut egestas.</p>
+
+            <p>Suspendisse euismod tellus nec lectus mattis vehicula accumsan nisi molestie. Proin ac nisl neque, quis rutrum est. In hac habitasse platea dictumst. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit nisi at sem posuere fringilla. Pellentesque nec mollis neque. Cras commodo odio sollicitudin sapien facilisis imperdiet.</p>
+
+            <p>Morbi semper ornare vehicula. Etiam auctor ligula nec neque volutpat pharetra eu at sem. In lacinia vestibulum tincidunt. Nam porta convallis diam, sed condimentum eros dictum sed. Proin non enim turpis, ut varius urna. Nam vel egestas arcu. Nunc magna felis, scelerisque ut sollicitudin in, pellentesque et nisl. Nulla semper mollis orci sed dignissim. Fusce massa neque, auctor sed elementum nec, laoreet sit amet neque. In rhoncus sagittis fringilla. In est leo, lacinia at volutpat in, pellentesque in velit. Aenean commodo mauris eget diam elementum fringilla. Quisque luctus augue et tellus egestas suscipit. Cras malesuada leo libero, quis porttitor erat.</p>
+
+            <p>Phasellus feugiat fringilla lacus, viverra ullamcorper ipsum tincidunt eget. In auctor porttitor diam, eget auctor mi pellentesque id. Aenean ac velit sit amet leo pulvinar posuere. In turpis nulla, malesuada vitae consectetur nec, pretium aliquam tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam vestibulum fermentum vestibulum. In pretium, tellus sed malesuada vestibulum, augue neque imperdiet augue, at dignissim lacus ligula non augue. Etiam at diam vel dolor auctor scelerisque a nec diam. Aenean a odio nulla.</p>
+
+        </section>
+
+
+        <footer id="page_footer">
+            <p>Page footer</p>
+        </footer>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
